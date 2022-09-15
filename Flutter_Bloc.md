@@ -147,12 +147,12 @@
 17. **Tell me the flow for calling api or some other functions using bloc and cubit.**
 
 	**Ans** - 
-	Bloc flow - 
+	**Bloc flow** - 
     - In bloc we use Events and State for communicating for API calls.
     - BlocProvider.of<BlocName>(context).add(EventName) for adding event into bloc we have to use this signature.
     - Then it will return the processed States to UI.
 
-	Cubit flow -
+	**Cubit flow** -
     - In cubit we  use  instance of cubit in direct function mode.
     - So in that we don’t have to use events for adding into cubit.
     - Function communicate with Repository and return with States to UI.
@@ -177,7 +177,8 @@
 19. **What is the buildWhen  Blocbuilder widget?**
 
 	**Ans** - 
-	buildWhen - 
+
+	**buildWhen** - 
     - buildWhen parameter takes the previous bloc state and current bloc state and returns a boolean. 
     - If buildWhen returns true, builder will be called with state and the widget will rebuild.
 
@@ -189,11 +190,12 @@
 21. **What is context.Read() and context.Watch() and context.Select()?**
 
 	**Ans** - 
-	Context.Read() - 
+	
+	**Context.Read()** - 
     - context.read<T>() looks up the closest ancestor instance of type T and is functionally equivalent to BlocProvider.of<T>(context). context.read is most commonly used for retrieving a bloc instance in order to add an event within onPressed callbacks.
 
-	Context.watch() - 
+	**Context.watch()** - 
     - Like context.read<T>(), context.watch<T>() provides the closest ancestor instance of type T, however it also listens to changes on the instance. It is functionally equivalent to BlocProvider.of<T>(context, listen: true).
 
-	Context.select() - 
+	**Context.select()** - 
     - Just like context.watch<T>(), context.select<T, R>(R function(T value)) provides the closest ancestor instance of type T and listens to changes on T. Unlike context.watch, context.select allows you listen for changes in a smaller part of a state.
