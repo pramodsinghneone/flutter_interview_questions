@@ -109,7 +109,8 @@
 
   **Ans -** 
   
-    - The difference is that BlocBuilder listens to the bloc and states and fetches the model on every change to rebuild the widget. But Consumer listens as soon as notifyListeners() executes inside the provider class.
+    - The difference is that BlocBuilder listens to the bloc and states and fetches the model on every change to rebuild the widget. 
+    - But Consumer listens as soon as notifyListeners() executes inside the provider class.
   
 **14 . Provider has some limitation so, what is the solution which overcome this limitations?**
 	
