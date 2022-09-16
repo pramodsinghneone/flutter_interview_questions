@@ -74,7 +74,7 @@
     - context.read<ModelClass>() replaces Provider.of<ModelClass>(context, listen: false).
     - which returns T without listening to it. It is used for adding events on button click. 
 
-  **Context.wath() -** 
+  **Context.watch() -** 
 
     - context.watch<ModelClass>() replaces Provider.of<ModelClass>(context).
     - context.watch<ModelClass>(), which makes the widget listen to changes on ModelClass.
