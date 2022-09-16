@@ -55,6 +55,10 @@
     - BlocListener is a Flutter widget which takes a BlocWidgetListener and an optional Bloc and invokes the listener in response to state changes in the bloc. It should be used for functionality that needs to occur once per state change such as navigation, showing a SnackBar, showing a Dialog, etc...
     - listener is only called once for each state change (NOT including the initial state) unlike builder in BlocBuilder and is a void function.
 
+	BlocConsumer
+    - BlocConsumer exposes a builder and a listener. BlocConsumer works similarly to nested BlocListener and BlocBuilder, but with less boilerplate.
+    - BlocConsumer should only be used when both rebuilding the UI and performing additional reactions to state changes in the bloc are required.
+
 
 8. **What is MultiBlocProvider and difference between BlocProvider?**
 
