@@ -109,8 +109,10 @@
 
   **Ans -** 
   
-    - The difference is that BlocBuilder listens to the bloc and states and fetches the model on every change to rebuild the widget. 
+    - The difference is that Bloc exposes changes to UI via states  but provider uses ChangeNotifier to expose the data to UI.
+    - BlocBuilder uses states to rebuild UI which is directly exposes from bloc class
     - But Consumer listens as soon as notifyListeners() executes inside the provider class.
+	
   
 **14 . Provider has some limitation so, what is the solution which overcome this limitations?**
 	
