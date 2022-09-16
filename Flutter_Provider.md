@@ -115,3 +115,7 @@
 	
   **Ans -** 
      Riverpod
+	
+**15. In Bloc we have RepositoryProvider widget so, is there any similar widget presents in provider?**
+  
+  **Ans -** NO.
