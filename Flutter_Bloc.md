@@ -101,10 +101,10 @@
     - A Change represents the change from one State to another.
     - A Change consists of the currentState and nextState.
 
-	onTr**Ans**ition - 
-    - If you want to observe a bloc whenever a new event is added and a new state is added, you can override onTr**Ans**ition method.
+	onTransition - 
+    - If you want to observe a bloc whenever a new event is added and a new state is added, you can override onTransition method.
     - A tr**Ans**ition occurs when a new event is added and a new state is emitted from a corresponding EventHandler executed.
-    - onTr**Ans**ition is called before a Bloc's state has been updated.
+    - onTronTransition is called before a Bloc's state has been updated.
 
 	onError - 
     - To track a bloc's error whenever it happens.
