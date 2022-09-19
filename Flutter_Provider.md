@@ -14,7 +14,7 @@
     - MultiProviders 
 **3. Common Property Between GetX,Provider,Bloc?**
 
-  **Ans -**
+  **Ans -** Dependency Injection
   
   - Bloc - BlocProvider.of(context)
   - Provider - Provider.of(context)
