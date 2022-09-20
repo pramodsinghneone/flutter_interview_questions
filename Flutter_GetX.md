@@ -191,6 +191,26 @@ Binding -
    **Ans -** 
 	
 	- It is extending NavigatorState class of the framework.
+	
+	
+**17. What is difference between ValueBuilder and ObxValue?**
+	
+  **Ans -**  
+	
+  ValueBuilder - 
+   - It rebuild UI whenever it gets updated values.
+   - It is simple approach.
+
+  ObxValue - 
+  - It is reactive approach.
+  - It listen data in asynchronous manner. 
+
+**18. How you will connect to network services using GetX?**
+
+  **Ans -**
+	
+  - We will extends GetConnect class.
+  - Use the GET/POST/PUT/DELETE/SOCKET methods to communicate with your Rest API or websockets.
 
 
 
