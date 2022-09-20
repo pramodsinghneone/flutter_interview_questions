@@ -163,5 +163,13 @@ Binding -
 				Get.put<Controller2>(Controller2());
 				}
 			}
+	
+		getPages: [
+	  	GetPage(
+		  name: '/',
+	    	page: () => HomeView(),
+	    	binding: HomeBinding(),
+		  ),
+		]
 
 
