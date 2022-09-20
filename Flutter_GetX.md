@@ -171,5 +171,24 @@ Binding -
 	    	binding: HomeBinding(),
 		  ),
 		]
+	
+     Use of Binding - 
+     - Totally decouple the controller from the UI.
+     - Provide the instances of controller to the UI using Get.find<Controller>();
+
+**15. What is difference between Get.put() and Get.lazyPut()?**
+**Ans -** 
+
+Get.put() - 
+   - The controller is created on the memory when the code is executed.
+
+Get.lazyPut() - 
+   - The controller is created on the memory when the controller is used.
+
+**16. How navigation works in GetX without context?**
+**Ans -** 
+	
+	It is extending NavigatorState class of the framework.
+
 
 
