@@ -222,7 +222,7 @@ Binding -
 
   **Ans -** 
 	
-    - We can extends class with GetResponsiveView class and it will give us the property for different devices resolution.
+    - We can extends class with GetResponsiveView class and it will give us the property for different devices resolution.Based on that we can handle the multiple screen sizes for Tablet,Desktop,Mobile view.
 
 
 
