@@ -205,7 +205,7 @@ Binding -
   - It is reactive approach.
   - It listen data in asynchronous manner. 
 
-**18. How you will connect to network services using GetX?**
+**18. How you will connect to network services using GetX for api call?**
 
   **Ans -**
 	
