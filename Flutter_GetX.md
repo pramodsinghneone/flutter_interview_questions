@@ -211,6 +211,18 @@ Binding -
 	
   - We will extends GetConnect class.
   - Use the GET/POST/PUT/DELETE/SOCKET methods to communicate with your Rest API or websockets.
+	
+**19. What is the difference between GetX routing and Normal flutter routing?**
+	
+  **Ans -**
+	
+    - In GetX routing we can navigate without context and normal routing we have to use context and MaterialPageRoute.
+
+**20. How to handle Responsive view in GetX?**
+
+  **Ans -** 
+	
+    - We can extends class with GetResponsiveView class and it will give us the property for different devices resolution.
 
 
 
